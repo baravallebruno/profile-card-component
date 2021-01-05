@@ -1,0 +1,106 @@
+body, html {
+  font-family: 'Kumbh Sans', sans-serif;
+  font-size: 18px;
+  font-weight: 700;
+  background-color: #19a2ae;
+  color: #2d3248;
+}
+
+.container {
+  height: 100vh;
+  position: relative;
+  background: url(../img/bg-pattern-top.svg) -380px -330px no-repeat, url(../img/bg-pattern-bottom.svg) 160px 360px no-repeat;
+  background-size: 600px 600px,600px 600px;
+}
+
+@media only screen and (min-width: 376px) {
+  .container {
+    background: url(../img/bg-pattern-top.svg) -270px -520px no-repeat, url(../img/bg-pattern-bottom.svg) 750px 370px no-repeat;
+  }
+}
+
+.card {
+  background-color: white;
+  width: 330px;
+  margin: auto;
+  position: absolute;
+  top: 170px;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%);
+  border-radius: 15px;
+  -webkit-box-shadow: 0px 2px 3px rgba(0, 0, 0, 0.1), -5px 20px 50px 5px rgba(0, 0, 0, 0.15);
+          box-shadow: 0px 2px 3px rgba(0, 0, 0, 0.1), -5px 20px 50px 5px rgba(0, 0, 0, 0.15);
+}
+
+@media only screen and (min-width: 376px) {
+  .card {
+    width: 350px;
+  }
+}
+
+.card-top {
+  border-radius: 15px 15px 0px 0px;
+  height: 140px;
+  background: url(../img/bg-pattern-card.svg) center center no-repeat;
+}
+
+.card-bottom {
+  position: relative;
+  -webkit-box-shadow: 0px -1px 2px rgba(0, 0, 0, 0.15);
+          box-shadow: 0px -1px 2px rgba(0, 0, 0, 0.15);
+}
+
+.profile-img {
+  border-radius: 50%;
+  border: 5px solid white;
+  position: absolute;
+  top: 0;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+}
+
+.data {
+  text-align: center;
+  padding-top: 65px;
+  padding-bottom: 25px;
+  border-bottom: 1px solid #ebebeb;
+}
+
+.data p {
+  margin: 10px 0;
+  line-height: 1;
+}
+
+.data p span {
+  font-weight: 400;
+  color: #969696;
+}
+
+.data small {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1;
+  color: #969696;
+}
+
+.col {
+  width: 33%;
+  float: left;
+  text-align: center;
+  padding: 30px 0;
+}
+
+.col p {
+  margin: 0;
+  line-height: 1;
+}
+
+.col span {
+  font-size: 12px;
+  font-weight: 400;
+  color: #969696;
+  letter-spacing: 0.15em;
+}
+/*# sourceMappingURL=styles.css.map */
